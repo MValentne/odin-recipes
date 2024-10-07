@@ -3,6 +3,26 @@
     padding: 0;
   }
 
+  a {
+    color: inherit;   /* This will make the link take the color of its parent element */
+    text-decoration: none; /* This will remove the underline from the link */
+}
+
+/* This applies specifically to visited links */
+a:visited {
+    color: inherit;   /* This will keep the visited links the same color */
+}
+
+/* This applies when hovering over the link */
+a:hover {
+    color: rgb(224, 224, 224); 
+}
+
+/* This applies when the link is active (clicked) */
+a:active {
+    color: rgb(255, 255, 255);
+}
+
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -34,6 +54,8 @@ h1.head{
     margin-top: 0px;
     margin-bottom: 30px;
     font-size: 150%;
+    flex-grow: 1;
+    text-align: center;
 }
 .recipe-name{
     text-align: center;   
@@ -142,3 +164,23 @@ h1{
 }
 
 /* Go back button */
+.goback{
+    margin-left: 5%;
+    background-color: rgb(86, 86, 86);
+    color: white;
+    font-size: 70%;
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+    top: 1.5%;
+    left: 5%;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.headbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
