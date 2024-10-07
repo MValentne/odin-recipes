@@ -1,30 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    background-color: rgb(213, 213, 213);
+}
+.menu-title{
+    margin-left: 600px;
+    margin-right: 600px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(76, 20, 61);
 }
 
-body .head {
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-}
-
-ul{
+#menu-list{
+    margin-left: 500px;
+    margin-right: 500px;
     text-align: center;
+    background-color: white;
+}
+
+h1.head{
+    /* The head of the recipe page */
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    color: white;
+    border-color: rgb(213, 213, 213);
+    background-color: rgb(86, 86, 86);
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.recipe-name{
+    text-align: center;   
+    font-size: 40px;
+    background-color: white; 
+    margin-left: 300px;
+    margin-right: 300px;    
+    margin-bottom: 0px;
+    text-decoration: underline;
+    
+}
+
+.description{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 30px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+/* Centers text for ingredients */
+ul{
+    text-align: justify;
     list-style-position: inside;
     font-size: 20px;
+    padding: 10px;
 }
 
 .ingredients {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
+    padding-top: 10px;
     font-size: 25px;
     margin-top: 70px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: white;
+    margin-bottom: 0px;
 }
 
+/* Adds box to the ingredients */
 ul,
 h3.ingredients{
     border: 5px;
-    border-style: solid;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: white;
+}
+
+h1{
+    background-color: rgb(177, 141, 196);
+    text-align: center;
+}
+
+.image-box {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(213, 213, 213);
+    border-width: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding: 5px;
+    width: 420px;  
+    height: 420px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-style:double;
+    margin-bottom: 40px;
+}
+
+.image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    margin: 0; 
+}
+
+.howtomake{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-decoration: underline;
+    background-color: white;
+    padding-left: 180px;
+    margin-right: 1100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.howtomake-list{
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 1100px;
+    margin-bottom: 600px;
+    text-align: justify;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 20px;
 }
