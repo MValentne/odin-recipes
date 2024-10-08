@@ -9,18 +9,28 @@
 </head>
 
 <body>
-    <h1 class="head">Pizza</h1>
-   <img src="../images/pizza.jpeg" alt="A delicious looking pizza" height="300" width="300">
-    <h3>Pepperoni pizza</h3>
+     <!-- GO BACK button -->
+    <div class="headbar">
+    <button type="button" class="goback"> <a href="../index.html">Go Back</a></button>
+    <h1 class="head">----Pizza----</h1>
+    </div>
 
+    <div class="image-box">
+        <!--I placed this div to give the image a border-->
+        <img class="image" src="../images/pizza.jpeg" alt="A delicious looking pizza" height="300" width="300">
+    </div>
+    <h3 class="recipe-name">Pepperoni pizza</h3>
+    
     <!-- Description -->
-    <p>
+    <p class="description">
         Italian dish typically consisting of a flat base of leavened wheat-based dough topped with 
         tomato, cheese, and other ingredients,baked at high temperature, traditionally in a wood 
         fired oven.
     </p>
 
     <!-- Ingredients -->
+     <!-- Inside a div so I can wrap them in a box -->
+      <div class="ingredients-box">
      <h3 class="ingredients">Ingredients</h3>
     <ul>
         <li>2 cups of while flour</li>
@@ -31,10 +41,11 @@
         <li>1 cup of sauce</li>
         <li>6 ounces of mozzarella cheese</li>
     </ul>
+    </div>
 
     <!-- How to make -->
-     <h3 class="head">How do I make it?</h3>
-     <ol>
+     <h3 class="howtomake">How do I make it?</h3>
+     <ol class="howtomake-list">
         <li>Wash your hands</li>
         <li>Preheat your furnace at 375F</li>
         <li>Collect all ingredients</li>

@@ -9,18 +9,27 @@
 </head>
 
 <body>
-    <h1 class="head">Milanese</h1>
-    <img src="../images/milanese.jpg" alt="A juicy milanese" width="300" height="300">
-    <h3>Chicken milanese</h3>
+    <div class="headbar">
+    <button type="button" class="goback"> <a href="../index.html">Go Back</a></button>
+    <h1 class="head">----Milanese----</h1>
+    </div>
+
+    <div class="image-box">
+        <!--I placed this div to give the image a border-->
+        <img class="image" src="../images/milanese.jpg" alt="A juicy milanese" width="300" height="300">
+    </div>
+    <h3 class="recipe-name">Chicken milanese</h3>
 
     <!-- Description -->
-    <p>
+    <p class="description">
         Italian Cooking. (especially of meats) coated with flour or breadcrumbs and browned in hot oil or 
         butter. (especially of pasta) having a sauce of tomatoes, mushrooms, grated cheese, shredded 
         meat, and truffles: spaghetti Milanese
     </p>
 
     <!-- Ingredients -->
+     <!-- Inside a div so I can wrap them in a box -->
+      <div class="ingredients-box">
      <h3 class="ingredients">Ingredients</h3>
     <ul>
         <li>2 large eggs</li>
@@ -31,10 +40,11 @@
         <li>¼ cup vegetable oil for frying</li>
         <li>1 lemon, cut into wedges</li>
     </ul>
-
+    </div>
+    
     <!-- How to make -->
-     <h3 class="head">How do I make it?</h3>
-     <ol>
+     <h3 class="howtomake">How do I make it?</h3>
+     <ol class="howtomake-list">
         <li>Preheat the oven to 200 degrees F (95 degrees C).</li>
         <li>Beat eggs with salt and pepper in a shallow dish. Spread flour in another dish and bread crumbs in a third dish.</li>
         <li>Working with one piece at a time, gently press chicken into flour to coat and shake off any excess. Dip into beaten eggs, then press into bread crumbs. Gently toss between your hands so excess bread crumbs can fall away. Place breaded chicken onto a plate while breading the rest; do not stack.</li>
